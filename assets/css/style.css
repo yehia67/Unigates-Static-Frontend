@@ -3017,4 +3017,6 @@ a,
     font-size: 19px;
 }
 
-.new-weight {}
+.new-weight {
+    font-weight: 300
+}
