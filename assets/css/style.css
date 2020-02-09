@@ -50,14 +50,17 @@
 :: 38.0 COMING SOON AREA CSS
 ****************************** */
 
+
 /* ******************************
 :: 1.0 WEB FONTS
 ****************************** */
+
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap');
 
 /* ******************************
 :: 2.0 IMPORT ALL CSS
 ****************************** */
+
 @import url(bootstrap.min.css);
 @import url(icofont.min.css);
 @import url(all.min.css);
@@ -70,6 +73,7 @@
 /* ******************************
 :: 3.0 GLOBAL CSS
 ****************************** */
+
 * {
     margin: 0;
     padding: 0;
@@ -183,9 +187,11 @@ img {
     max-width: 100%;
 }
 
+
 /* ******************************
 :: 4.0 COMMON CSS
 ****************************** */
+
 .fw-3 {
     font-weight: 300;
 }
@@ -249,7 +255,7 @@ img {
     outline: none;
 }
 
-.tooltip > .tooltip-inner {
+.tooltip>.tooltip-inner {
     background-color: #00cff2;
     padding: 6px;
 }
@@ -264,16 +270,18 @@ img {
     width: 100%;
 }
 
+
 /*SECTION HEADING*/
+
 .section-heading {
     margin-bottom: 80px;
 }
 
-.section-heading > h2 {
+.section-heading>h2 {
     position: relative;
 }
 
-.section-heading > h2::after {
+.section-heading>h2::after {
     position: absolute;
     content: '';
     height: 2px;
@@ -284,7 +292,9 @@ img {
     transform: translateX(-50%);
 }
 
+
 /*HEADINGS*/
+
 .headings span {
     color: #444;
     font-weight: 500;
@@ -294,7 +304,9 @@ img {
     margin-left: -30px;
 }
 
+
 /*SECTION PADDING*/
+
 .pt_0 {
     padding-top: 0;
 }
@@ -315,7 +327,9 @@ img {
     padding: 180px 0;
 }
 
+
 /*BUTTONS*/
+
 .btn {
     font-size: 15px;
     font-weight: 500;
@@ -443,7 +457,9 @@ img {
     font-weight: 600;
 }
 
+
 /*TRANSITIONS*/
+
 .team-photo:before,
 .team-photo:after {
     -webkit-transition: all 0.2s ease 0s;
@@ -465,11 +481,11 @@ a,
 .dropdown-item,
 .navbar-sticky,
 .play-btn,
-.play-btn > i,
+.play-btn>i,
 .benifits-item,
 .benifits-item:after,
 .single-work::after,
-.single-work > h3,
+.single-work>h3,
 .features-menu .single-features,
 .features-menu .single-features::after,
 .screenshots-overlay,
@@ -491,7 +507,9 @@ a,
     transition: all 0.4s ease 0s;
 }
 
+
 /*BG SHAPE*/
+
 .shapes-container {
     position: absolute;
     top: 0;
@@ -564,11 +582,9 @@ a,
     0% {
         top: 12%;
     }
-
     50% {
         top: 16%;
     }
-
     100% {
         top: 12%;
     }
@@ -578,11 +594,9 @@ a,
     0% {
         top: 12%;
     }
-
     50% {
         top: 16%;
     }
-
     100% {
         top: 12%;
     }
@@ -592,11 +606,9 @@ a,
     0% {
         top: 12%;
     }
-
     50% {
         top: 18%;
     }
-
     100% {
         top: 12%;
     }
@@ -606,17 +618,17 @@ a,
     0% {
         top: 12%;
     }
-
     50% {
         top: 18%;
     }
-
     100% {
         top: 12%;
     }
 }
 
+
 /*BORDER RADIUS*/
+
 .single-testimonial img,
 .single-testimonial-thumb img,
 .team-photo,
@@ -626,7 +638,9 @@ a,
     border-radius: 100% 50% 50% 100% / 75% 69% 69% 75%;
 }
 
+
 /*BACKGROUND OVERLAY*/
+
 .bg-overlay,
 .overlay-primary,
 .overlay-dark {
@@ -674,7 +688,9 @@ a,
     width: 100%;
 }
 
+
 /*BACKGROUND COLORS*/
+
 .bg-dark {
     background-color: #1b1a1e !important;
 }
@@ -705,22 +721,24 @@ a,
     background: rgba(0, 0, 0, 0) linear-gradient(to right, #00e4e2 0%, #81ee8e 100%) repeat scroll 0 0;
 }
 
-.pagination > li:hover a,
-.pagination > li:focus a,
-.pagination > li.active a,
+.pagination>li:hover a,
+.pagination>li:focus a,
+.pagination>li.active a,
 .blockquote::after {
     background-color: #00cff2;
     color: #fff;
 }
 
-.pagination > li:hover a,
-.pagination > li:focus a,
-.pagination > li.active a {
+.pagination>li:hover a,
+.pagination>li:focus a,
+.pagination>li.active a {
     border: 1px solid #00cff2;
 }
 
+
 /*SOCIAL ICONS*/
-.social-icons > a {
+
+.social-icons>a {
     margin: 5px;
     width: 45px;
     height: 45px;
@@ -741,27 +759,29 @@ a,
     transition: all 0.3s ease 0s;
 }
 
-.social-icons > a:hover svg:first-child {
+.social-icons>a:hover svg:first-child {
     margin-top: -45px;
 }
 
-.social-icons > a.facebook {
+.social-icons>a.facebook {
     background-color: #3b5999 !important;
 }
 
-.social-icons > a.twitter {
+.social-icons>a.twitter {
     background-color: #55acee !important;
 }
 
-.social-icons > a.google-plus {
+.social-icons>a.google-plus {
     background-color: #dd4b39 !important;
 }
 
-.social-icons > a.vine {
+.social-icons>a.vine {
     background-color: #00b489 !important;
 }
 
+
 /*TYPED*/
+
 .cd-words-wrapper {
     display: inline-block;
     position: relative;
@@ -818,7 +838,9 @@ a,
     opacity: 1;
 }
 
+
 /*BACKGROUND IMAGES*/
+
 .welcome-area {
     background: rgba(0, 0, 0, 0) url("../img/bg/welcome-main.png") no-repeat scroll center center / cover;
 }
@@ -847,9 +869,11 @@ a,
     background: rgba(0, 0, 0, 0) url("../img/bg/coming-soon.jpg") no-repeat scroll center center / cover;
 }
 
+
 /* ******************************
 :: 5.0 PRELOADER AREA CSS
 ****************************** */
+
 #loader {
     position: fixed;
     top: 0;
@@ -906,34 +930,32 @@ a,
 }
 
 @-webkit-keyframes bouncee {
-
     0%,
     100% {
         -webkit-transform: scale(0.0)
     }
-
     50% {
         -webkit-transform: scale(1.0)
     }
 }
 
 @keyframes bouncee {
-
     0%,
     100% {
         transform: scale(0.0);
         -webkit-transform: scale(0.0);
     }
-
     50% {
         transform: scale(1.0);
         -webkit-transform: scale(1.0);
     }
 }
 
+
 /* ******************************
 :: 6.0 SCROLL TO TOP AREA CSS
 ****************************** */
+
 #scrollUp {
     position: fixed;
     right: 1%;
@@ -948,7 +970,7 @@ a,
     display: none;
 }
 
-#scrollUp > i {
+#scrollUp>i {
     font-size: 24px;
     line-height: 38px;
     display: block;
@@ -960,9 +982,11 @@ a,
     transform: translateY(-3px);
 }
 
+
 /* ******************************
 :: 7.0 HEADER AREA CSS
 ****************************** */
+
 .header-area {
     position: absolute;
     height: auto;
@@ -1036,9 +1060,7 @@ a,
         visibility: hidden;
         opacity: 0;
     }
-
     100% {
-
         visibility: visible;
         opacity: 1;
         left: 50%;
@@ -1055,9 +1077,7 @@ a,
         visibility: hidden;
         opacity: 0;
     }
-
     100% {
-
         visibility: visible;
         opacity: 1;
         left: 50%;
@@ -1129,10 +1149,12 @@ a,
     background: rgb(39, 45, 58) repeat scroll 0 0;
 }
 
+
 /* ******************************
 :: 8.0 WELCOME AREA CSS
 ****************************** */
-.welcome-intro > h3 {
+
+.welcome-intro>h3 {
     font-size: 30px;
 }
 
@@ -1180,7 +1202,7 @@ a,
     animation: grow 2s ease infinite;
 }
 
-.play-btn > i {
+.play-btn>i {
     line-height: 80px;
     color: #fff;
     font-size: 20px;
@@ -1192,19 +1214,16 @@ a,
         transform: scale(1, 1);
         opacity: 0;
     }
-
     25% {
         -webkit-transform: scale(1, 1);
         transform: scale(1, 1);
         opacity: 0.5;
     }
-
     50% {
         -webkit-transform: scale(1.2, 1.2);
         transform: scale(1.2, 1.2);
         opacity: 1;
     }
-
     100% {
         -webkit-transform: scale(1, 1);
         transform: scale(1, 1);
@@ -1218,19 +1237,16 @@ a,
         transform: scale(1, 1);
         opacity: 0;
     }
-
     25% {
         -webkit-transform: scale(1, 1);
         transform: scale(1, 1);
         opacity: 0.5;
     }
-
     50% {
         -webkit-transform: scale(1.2, 1.2);
         transform: scale(1.2, 1.2);
         opacity: 1;
     }
-
     100% {
         -webkit-transform: scale(1, 1);
         transform: scale(1, 1);
@@ -1238,9 +1254,11 @@ a,
     }
 }
 
+
 /* ******************************
 :: 9.0 BENIFITS AREA CSS
 ****************************** */
+
 .benifits-item:after {
     position: absolute;
     content: '';
@@ -1263,9 +1281,11 @@ a,
     opacity: 1;
 }
 
+
 /* ******************************
 :: 10.0 ABOUT AREA CSS
 ****************************** */
+
 .about-text p {
     line-height: 1.8;
 }
@@ -1274,9 +1294,11 @@ a,
     background: #f5f7fb none repeat scroll 0 0;
 }
 
+
 /* ******************************
 :: 11.0 WORK AREA CSS
 ****************************** */
+
 .work-area {
     z-index: 1;
 }
@@ -1332,23 +1354,25 @@ a,
     opacity: 1;
 }
 
-.work-content .active .single-work > h3 {
+.work-content .active .single-work>h3 {
     color: #00cff2;
 }
+
 
 /* ******************************
 :: 12.0 FEATURES AREA CSS
 ****************************** */
+
 .counter-list ul li {
     display: inline-block;
 }
 
-.counter-icon > i {
+.counter-icon>i {
     font-size: 34px;
     color: #00cff2;
 }
 
-.counter-text > span {
+.counter-text>span {
     font-size: 24px;
     font-weight: 600;
     color: #444;
@@ -1436,13 +1460,15 @@ a,
     width: 60px;
 }
 
-.features-text > p {
+.features-text>p {
     line-height: 1.8;
 }
+
 
 /* ******************************
 :: 13.0 SCREENSHOTS AREA CSS
 ****************************** */
+
 .single-screenshot {
     position: relative;
     -webkit-transform: scale(0.9);
@@ -1469,7 +1495,7 @@ a,
     opacity: 0;
 }
 
-.screenshots-overlay > a {
+.screenshots-overlay>a {
     height: 70px;
     width: 70px;
     text-align: center;
@@ -1517,9 +1543,11 @@ a,
     box-shadow: 0 1px 5px rgba(0, 207, 242, 1);
 }
 
+
 /* ******************************
 :: 14.0 PRICE PLAN AREA CSS
 ****************************** */
+
 .price-plan-area {
     z-index: 1;
 }
@@ -1603,7 +1631,7 @@ a,
     text-align: center;
 }
 
-.plan-select > a {
+.plan-select>a {
     font-size: 14px;
     letter-spacing: 3px;
 }
@@ -1624,9 +1652,11 @@ a,
     padding: 30px 20px;
 }
 
+
 /* ******************************
 :: 15.0 TESTIMONIAL AREA CSS
 ****************************** */
+
 .testimonial-area .owl-item img {
     width: 100px;
     height: 100px;
@@ -1677,9 +1707,11 @@ a,
     margin: 5px;
 }
 
+
 /* ******************************
 :: 16.0 TEAM AREA CSS
 ****************************** */
+
 .single-team {
     background-color: #fff;
     -webkit-box-shadow: 0 0 5px -2px hsla(0, 0%, 0%, 0.15);
@@ -1747,7 +1779,7 @@ a,
     font-weight: 400;
 }
 
-.team-media > a {
+.team-media>a {
     font-size: 16px;
     display: inline-block;
     height: 30px;
@@ -1777,9 +1809,11 @@ a,
     box-shadow: 0 5px 10px rgba(0, 207, 242, 0.2);
 }
 
+
 /* ******************************
 :: 17.0 START FREE AREA CSS
 ****************************** */
+
 .start-free-area {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -1792,7 +1826,7 @@ a,
     background-color: #fff;
 }
 
-.start-free-text > h2 {
+.start-free-text>h2 {
     font-size: 2.5em;
 }
 
@@ -1805,9 +1839,11 @@ a,
     padding: 18px 50px;
 }
 
+
 /* ******************************
 :: 18.0 BLOG AREA CSS
 ****************************** */
+
 .blog-area {
     z-index: 1;
 }
@@ -1825,7 +1861,7 @@ a,
     border-radius: 6px;
 }
 
-.blog-content > p {
+.blog-content>p {
     line-height: 1.8;
 }
 
@@ -1865,15 +1901,17 @@ a,
     box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1);
 }
 
+
 /* ******************************
 :: 19.0 BREADCRUMB AREA CSS
 ****************************** */
+
 .breadcrumb-area {
     height: 350px;
     z-index: 1;
 }
 
-.breadcrumb-content > h3 {
+.breadcrumb-content>h3 {
     font-size: 38px;
 }
 
@@ -1882,16 +1920,18 @@ a,
     margin: 0;
 }
 
-.blog .breadcrumb-item > a,
+.blog .breadcrumb-item>a,
 .blog .breadcrumb-item,
 .blog .breadcrumb-item::before,
 .blog .breadcrumb-item.active {
     color: #fff;
 }
 
+
 /* ******************************
 :: 20.0 BLOG PAGE AREA CSS
 ****************************** */
+
 .blog .navbar-light .navbar-toggler-icon {
     background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
@@ -1900,7 +1940,7 @@ a,
     margin-bottom: 45px;
 }
 
-.pagination > li > a {
+.pagination>li>a {
     font-size: 14px;
     height: 40px;
     width: 40px;
@@ -1935,10 +1975,14 @@ a,
     transform: translateX(4px);
 }
 
+
 /* ******************************
 :: 21.0 BLOG PAGE DETAILS AREA CSS
 ****************************** */
+
+
 /*Single Widget*/
+
 .single-widget {
     margin-bottom: 35px;
 }
@@ -1951,7 +1995,9 @@ a,
     position: relative;
 }
 
+
 /*Search Widget*/
+
 .search-widget input {
     background-color: #f7f7f7;
     border: 1px solid #eee;
@@ -1970,7 +2016,9 @@ a,
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
 
+
 /*Catagory Widget*/
+
 .widget .single-accordion {
     border: 1px solid #eee;
     border-radius: 4px;
@@ -1993,7 +2041,9 @@ a,
     line-height: 1.4;
 }
 
+
 /*Post Widget*/
+
 .post-thumb img {
     border: 1px solid #eee;
 }
@@ -2008,7 +2058,9 @@ a,
     line-height: 20px;
 }
 
+
 /*Tags Widget*/
+
 .tags-widget .single-accordion {
     border: none;
 }
@@ -2018,16 +2070,18 @@ a,
     font-size: 12px;
 }
 
+
 /*Blog Details*/
+
 .appo-blog .meta-info {
     border-bottom: 1px solid #eee;
 }
 
-.meta-info > ul > li {
+.meta-info>ul>li {
     position: relative;
 }
 
-.meta-info > ul > li::after {
+.meta-info>ul>li::after {
     position: absolute;
     content: '';
     height: 30%;
@@ -2039,7 +2093,7 @@ a,
     transform: translateY(-50%);
 }
 
-.meta-info > ul > li:last-child::after {
+.meta-info>ul>li:last-child::after {
     display: none;
 }
 
@@ -2047,23 +2101,23 @@ a,
     padding: 0 10px;
 }
 
-.blog-share .social-icons > a {
+.blog-share .social-icons>a {
     width: 35px;
     height: 35px;
     font-size: 16px;
 }
 
-.blog-share .social-icons > a.facebook:hover {
+.blog-share .social-icons>a.facebook:hover {
     background-color: #3b5999 !important;
     color: #fff;
 }
 
-.blog-share .social-icons > a.twitter:hover {
+.blog-share .social-icons>a.twitter:hover {
     background-color: #55acee !important;
     color: #fff;
 }
 
-.blog-share .social-icons > a.google-plus:hover {
+.blog-share .social-icons>a.google-plus:hover {
     background-color: #dd4b39 !important;
     color: #fff;
 }
@@ -2072,11 +2126,11 @@ a,
     line-height: 35px;
 }
 
-.blog-share .social-icons > a:hover svg:first-child {
+.blog-share .social-icons>a:hover svg:first-child {
     margin-top: -35px;
 }
 
-.appo-blog .blog-details .blog-title > a {
+.appo-blog .blog-details .blog-title>a {
     font-size: 24px;
 }
 
@@ -2121,7 +2175,7 @@ a,
     margin-bottom: 0;
 }
 
-.comments-content > h5 > a:last-child {
+.comments-content>h5>a:last-child {
     color: #00cff2;
 }
 
@@ -2144,9 +2198,11 @@ a,
     padding-top: 80px;
 }
 
+
 /* ******************************
 :: 22.0 CONTACT AREA CSS
 ****************************** */
+
 .contact-box .form-group input,
 .contact-box .form-group textarea {
     font-size: 14px;
@@ -2191,7 +2247,9 @@ a,
     padding: 12px 26px;
 }
 
+
 /*Map Area*/
+
 .map-area {
     height: 550px;
     width: 100%;
@@ -2208,16 +2266,18 @@ a,
     }
 }
 
+
 /* ******************************
 :: 23.0 FOOTER AREA CSS
 ****************************** */
-.footer-area .social-icons > a {
+
+.footer-area .social-icons>a {
     width: 40px;
     height: 40px;
     font-size: 18px;
 }
 
-.footer-area .social-icons > a:hover svg:first-child {
+.footer-area .social-icons>a:hover svg:first-child {
     margin-top: -40px;
 }
 
@@ -2233,14 +2293,16 @@ a,
     color: #00cff2 !important;
 }
 
-.footer-area .social-icons > a:hover,
-.footer-area .social-icons > a:focus {
+.footer-area .social-icons>a:hover,
+.footer-area .social-icons>a:focus {
     color: #fff !important;
 }
+
 
 /* ******************************
 :: 24.0 HOMEPAGE- RIGA AREA CSS
 ****************************** */
+
 .riga .btn,
 .riga .btn:active,
 .riga .btn.btn-bordered:before,
@@ -2259,9 +2321,11 @@ a,
     border-color: #cb88d2 transparent transparent;
 }
 
+
 /* ******************************
 :: 25.0 HOMEPAGE- TOKYO AREA CSS
 ****************************** */
+
 .tokyo .btn,
 .tokyo .btn:active,
 .tokyo .btn.btn-bordered:before,
@@ -2275,7 +2339,7 @@ a,
     background: #6c63ff;
 }
 
-.tokyo .welcome-intro > h1 {
+.tokyo .welcome-intro>h1 {
     font-size: 3.5em;
 }
 
@@ -2291,7 +2355,7 @@ a,
     box-shadow: 0 1px 5px rgba(0, 207, 242, 0.5);
 }
 
-.tokyo .play-btn > i {
+.tokyo .play-btn>i {
     font-size: 16px;
     line-height: 45px;
     color: #444;
@@ -2311,9 +2375,11 @@ a,
     border-color: #6c63ff transparent transparent;
 }
 
+
 /* ******************************
 :: 26.0 HOMEPAGE- ROME AREA CSS
 ****************************** */
+
 .rome .btn,
 .rome .btn:active,
 .rome .btn.btn-bordered:before,
@@ -2335,9 +2401,11 @@ a,
     border-color: #cfc7ff transparent transparent;
 }
 
+
 /* ******************************
 :: 27.0 HOMEPAGE- PARIS AREA CSS
 ****************************** */
+
 .paris .btn,
 .paris .btn:active,
 .paris .btn.btn-bordered:before,
@@ -2394,9 +2462,11 @@ a,
     border-color: #4528DC transparent transparent;
 }
 
+
 /* ******************************
 :: 28.0 HOMEPAGE- LONDON AREA CSS
 ****************************** */
+
 .london .bg-shape,
 .london .shape-1::before,
 .london .navbar-sticky,
@@ -2473,9 +2543,11 @@ a,
     color: #fff;
 }
 
+
 /* ******************************
 :: 29.0 HOMEPAGE- SEOUL AREA CSS
 ****************************** */
+
 .seoul .btn.btn-bordered:before,
 .seoul .btn.btn-bordered-white:after,
 .seoul .navbar-sticky,
@@ -2518,9 +2590,11 @@ a,
     border-color: #2af598 transparent transparent;
 }
 
+
 /* ******************************
 :: 30.0 HOMEPAGE- MOSCOW AREA CSS
 ****************************** */
+
 .moscow .btn.btn-bordered:before,
 .moscow .btn.btn-bordered-white:after,
 .moscow .navbar-sticky,
@@ -2578,9 +2652,11 @@ a,
     border-color: #fe2983 transparent transparent;
 }
 
+
 /* ******************************
 :: 31.0 HOMEPAGE- ITALY AREA CSS
 ****************************** */
+
 .italy .welcome-area {
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     background-size: 400% 400%;
@@ -2606,35 +2682,36 @@ a,
     max-height: 150px;
 }
 
+
 /* Animation */
 
-.parallax > use {
+.parallax>use {
     -webkit-animation: move-forever 25s cubic-bezier(.55, .5, .45, .5) infinite;
     animation: move-forever 25s cubic-bezier(.55, .5, .45, .5) infinite;
 }
 
-.parallax > use:nth-child(1) {
+.parallax>use:nth-child(1) {
     -webkit-animation-delay: -2s;
     animation-delay: -2s;
     -webkit-animation-duration: 7s;
     animation-duration: 7s;
 }
 
-.parallax > use:nth-child(2) {
+.parallax>use:nth-child(2) {
     -webkit-animation-delay: -3s;
     animation-delay: -3s;
     -webkit-animation-duration: 10s;
     animation-duration: 10s;
 }
 
-.parallax > use:nth-child(3) {
+.parallax>use:nth-child(3) {
     -webkit-animation-delay: -4s;
     animation-delay: -4s;
     -webkit-animation-duration: 13s;
     animation-duration: 13s;
 }
 
-.parallax > use:nth-child(4) {
+.parallax>use:nth-child(4) {
     -webkit-animation-delay: -5s;
     animation-delay: -5s;
     -webkit-animation-duration: 20s;
@@ -2646,7 +2723,6 @@ a,
         -webkit-transform: translate3d(-90px, 0, 0);
         transform: translate3d(-90px, 0, 0);
     }
-
     100% {
         -webkit-transform: translate3d(85px, 0, 0);
         transform: translate3d(85px, 0, 0);
@@ -2658,7 +2734,6 @@ a,
         -webkit-transform: translate3d(-90px, 0, 0);
         transform: translate3d(-90px, 0, 0);
     }
-
     100% {
         -webkit-transform: translate3d(85px, 0, 0);
         transform: translate3d(85px, 0, 0);
@@ -2680,11 +2755,9 @@ a,
     0% {
         background-position: 0% 50%;
     }
-
     50% {
         background-position: 100% 50%;
     }
-
     100% {
         background-position: 0% 50%;
     }
@@ -2694,11 +2767,9 @@ a,
     0% {
         background-position: 0% 50%;
     }
-
     50% {
         background-position: 100% 50%;
     }
-
     100% {
         background-position: 0% 50%;
     }
@@ -2712,9 +2783,11 @@ a,
     background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
+
 /* ******************************
 :: 32.0 FAQ AREA CSS
 ****************************** */
+
 .single-faq {
     -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
@@ -2735,13 +2808,15 @@ a,
     bottom: 0;
 }
 
-.single-faq > h5 {
+.single-faq>h5 {
     font-size: 15px;
 }
+
 
 /* ******************************
 :: 33.0 LOGIN AREA CSS
 ****************************** */
+
 .login-area .btn.btn-bordered:before,
 .login-area .btn.btn-bordered-white:after {
     background: rgba(0, 0, 0, 0) -webkit-gradient(linear, left top, right top, from(#4e4376), to(#2b5876)) repeat scroll 0 0;
@@ -2759,7 +2834,7 @@ a,
 }
 
 .nav-pills .nav-link.active,
-.nav-pills .show > .nav-link {
+.nav-pills .show>.nav-link {
     -webkit-box-shadow: inherit;
     box-shadow: inherit;
     background-color: #fff;
@@ -2827,9 +2902,11 @@ a,
     color: #444;
 }
 
+
 /* ******************************
 :: 34.0 DOWNLOAD PAGE AREA CSS
 ****************************** */
+
 .download-page-area h2 {
     color: #0433b5;
 }
@@ -2838,21 +2915,25 @@ a,
     line-height: 1.8;
 }
 
-.download-page-area h6 > a {
+.download-page-area h6>a {
     text-decoration: underline;
 }
+
 
 /* ******************************
 :: 35.0 FORGOT AREA CSS
 ****************************** */
+
 .reset-password button {
     height: 50px;
     border-radius: 0;
 }
 
+
 /* ******************************
 :: 36.0 NEWSLETTER AREA CSS
 ****************************** */
+
 .form-control {
     font-size: 15px;
     height: 50px;
@@ -2876,26 +2957,30 @@ a,
     border-radius: 0;
 }
 
+
 /* ******************************
 :: 37.0 MAINTENENCE AREA CSS
 ****************************** */
-.maintenance-content > h3 {
+
+.maintenance-content>h3 {
     font-size: 45px;
     font-weight: 300;
 }
 
+
 /* ******************************
 :: 38.0 COMING SOON AREA CSS
 ****************************** */
+
 .countdown {
     text-transform: uppercase;
 }
 
-.countdown > div {
+.countdown>div {
     display: inline-block;
 }
 
-.countdown > div > span {
+.countdown>div>span {
     display: block;
     text-align: center;
 }
@@ -2918,9 +3003,16 @@ a,
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4)
 }
 
-.countdown-content > h1 {
+.countdown-content>h1 {
     font-size: 6.5vmax;
     background: rgba(0, 0, 0, 0) url("../img/bg/blog-thumb.jpg") no-repeat scroll center center / cover;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+}
+
+
+/*my style*/
+
+.new-font {
+    font-size: 19px;
 }
