@@ -3020,3 +3020,7 @@ a,
 .new-weight {
     font-weight: 300
 }
+
+.new-copyright {
+    justify-content: center !important;
+}
